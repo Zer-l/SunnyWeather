@@ -7,8 +7,9 @@
     <ImageView
         android:id="@+id/bgImageView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_height="match_parent"
+        android:layout_below="@id/actionBarLayout"
+        android:scaleType="centerCrop"
         android:src="@drawable/bg_place" />
 
     <FrameLayout
